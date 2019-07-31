@@ -347,7 +347,12 @@ body {
 @media(max-width: 425px) {
     .first-card {
         width: 100%;
-    }
+        border-radius: 5px;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        -ms-border-radius: 5px;
+        -o-border-radius: 5px;
+}
     .payment-card {
         width: 85%;
         height: 95%;
@@ -371,9 +376,10 @@ body {
         -ms-border-radius: 5px;
         -o-border-radius: 5px;
         padding: 25px 15px;
+        height: 100%;
     }
     .card-input {
-        height: 65%;
+        height: 70%;
     }
     .card-btn {
         font-size: 18px;
