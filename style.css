@@ -245,6 +245,11 @@ body {
     font-family: Montserrat;
     font-weight: 500;
     font-size: 14px;
+    transition: .5s;
+    -webkit-transition: .5s;
+    -moz-transition: .5s;
+    -ms-transition: .5s;
+    -o-transition: .5s;
 }
 
 .card-input__item:focus {
@@ -272,8 +277,19 @@ body {
     box-shadow: 0px 0px 10px rgba(107, 96, 218, 0.5);
 }
 
+.card-input__error {
+    background-color: #E61400;
+    color: #fff;
+}
 
+.card-input__error::placeholder {
+    color: #fff;
+}
 
+.card-input__success {
+    background-color: rgb(0, 156, 0);
+    color: #fff;
+}
 
 
 
@@ -289,6 +305,9 @@ body {
 }
 
 @media(max-width: 920px) {
+    .second-card {
+        width: 80%;
+    }
     .first-card__active{
         display: none;
     }
@@ -352,7 +371,7 @@ body {
         -moz-border-radius: 5px;
         -ms-border-radius: 5px;
         -o-border-radius: 5px;
-}
+    }
     .payment-card {
         width: 85%;
         height: 95%;
@@ -367,7 +386,7 @@ body {
         width: 45%;
     }
     .card-select {
-        margin-bottom: 15px;
+        margin-bottom: 40px;
     }
     .second-card {
         border-radius: 5px;
@@ -379,7 +398,7 @@ body {
         height: 100%;
     }
     .card-input {
-        height: 70%;
+        height: 60%;
     }
     .card-btn {
         font-size: 18px;
