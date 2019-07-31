@@ -57,7 +57,7 @@ body {
     height: 100%;
     background: linear-gradient(179.96deg, #493296 0.02%, #432672 99.98%);
     z-index: 5;
-    padding: 50px 40px;
+    padding: 10px 30px;
     position: absolute;
     top: 0;
     left: 50%;
@@ -120,6 +120,7 @@ body {
     font-weight: 500;
     font-size: 18px;
     color: #FFFFFF;
+    margin-bottom: 10px;
 }
 
 .product-cost {
@@ -161,4 +162,70 @@ body {
     -moz-transform: translateX(30%);
     -ms-transform: translateX(30%);
     -o-transform: translateX(30%);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width: 1144px) {
+    .card-title {
+        font-size: 30px;
+    }
+    .card-subtext {
+        font-size: 17px;
+    }
+}
+
+@media(max-width: 920px) {
+    .card-title {
+        font-size: 25px;
+    }
+    .card-subtext {
+        font-size: 15px;
+    }
+    .order-number {
+        font-size: 24px;
+    }
+    .name-product {
+        font-size: 15px;
+    }
+    .product-cost {
+        font-size: 40px;
+    }
+    .card-info {
+        font-size: 12px;
+    }
+    .first-card {
+        padding: 0px 20px;
+    }
+}
+
+@media(max-width: 768px) {
+    .payment-card {
+        height: 80%;
+    }
+    .second-card {
+        display: none;
+    }
+    .first-card {
+        width: 70%;
+    }
+}
+
+@media(max-width: 425px) {
+    .first-card {
+        width: 90%;
+    }
 }
