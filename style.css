@@ -371,7 +371,13 @@ body {
         -ms-border-radius: 5px;
         -o-border-radius: 5px;
         padding: 25px 15px;
-}
+    }
+    .card-input {
+        height: 65%;
+    }
+    .card-btn {
+        font-size: 18px;
+    }
 }
 
 .noselect {
