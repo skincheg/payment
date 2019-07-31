@@ -209,6 +209,7 @@ body {
     }
     .first-card {
         padding: 0px 20px;
+        width: 65%;
     }
 }
 
@@ -220,12 +221,15 @@ body {
         display: none;
     }
     .first-card {
-        width: 70%;
+        width: 85%;
     }
 }
 
 @media(max-width: 425px) {
     .first-card {
-        width: 90%;
+        width: 100%;
+    }
+    .payment-card {
+        width: 85%;
     }
 }
